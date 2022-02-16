@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", serif;
+}
+
+.header_container {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.menu_list {
+  margin-left: 147px;
+}
+
+.menu_links {
+  display: flex;
+  list-style: none;
+}
+
+.menu_link:not(:last-child) {
+  margin: 0px 21px 0px 0px;
+}
+.tdn {
+  color: #231f20;
+
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.phone {
+  margin-left: 30px;
+}
+.callus {
+  margin-left: 15px;
+}
+
+.search {
+  margin-left: 60px;
+}
+
+.marketing {
+  height: 800px;
+  background: url(../img/bg/2-layers@2x.jpg) center center / cover no-repeat;
+  padding: 313px 0 190px 0;
+}
+
+.descr {
+  color: white;
+  margin-top: 35px;
+}
+
+.button1 {
+  margin-top: 70px;
+  width: 170px;
+  height: 45px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 3px rgba(6, 7, 7, 0.35);
+  border-radius: 8px;
+}
+
+.button2 {
+  width: 170px;
+  height: 45px;
+  background-color: #008ce6;
+  box-shadow: 0 2px 3px rgba(6, 7, 7, 0.35);
+  border-radius: 8px;
+  margin-left: 30px;
+}
+
+.callus {
+  color: #bababa;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.phone_number {
+  color: #be1e2d;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.bisness {
+  color: #ffffff;
+  font-size: 52px;
+  font-weight: 900;
+}
+
+.descr {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.button1 .btn1_text {
+  color: #be1e2d;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.button2 .btn2_text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.benefits {
+  height: 700px;
+  background-color: #efefef;
+}
